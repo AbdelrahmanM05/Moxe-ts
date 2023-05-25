@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+    <title>Moxe</title>
+  </head>
+  <body>
+    <!-- Start Of NAV *PART  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <h3>Moxe</h3> </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="movLink">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="shows">TvShows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="actors">Actors</a>
+            </li>
+          </ul>
+          <ul class="list-unstyled mb-2 mb-lg-0 ms-auto">
+            <li class="nav-item d-flex align-items-center">
+              <i class="fa-brands mx-2 fa-facebook"></i>
+              <i class="fa-brands mx-2 fa-twitter"></i>
+              <i class="fa-brands mx-2 fa-instagram"></i>
+              <i class="fa-brands mx-2 fa-soundcloud"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Of NAV *PART  -->
+    <!-- Start Of Movies SECTION  -->
+    <section class="py-5" id="movies">
+      <div class="container">
+        <div class="row" id="moviesBox">
+
+        </div>
+      </div>
+    </section>
+    <!-- End Of Movies SECTION  -->
+    <!-- Start Of TvShows SECTION  -->
+    <section class="py-5 d-none" id="tv">
+      <div class="container">
+        <div class="row" id="showsBox"></div>
+      </div>
+    </section>
+    <!-- End Of TvShows SECTION  -->
+    <!-- Start Of Actors SECTION  -->
+    <section class="py-5 d-none" id="people">
+      <div class="container">
+        <div class="row" id="Actors"></div>
+      </div>
+    </section>
+    <!-- End Of Actors SECTION  -->
+    <script src="Js/bootstrap.bundle.min.js"></script>
+    <script src="Ts/index.js"></script>
+  </body>
+</html>
